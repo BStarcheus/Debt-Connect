@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150B8FF541247240860C490B /* Pods_Debt_ConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780B760B6B21197335C8E69 /* Pods_Debt_ConnectTests.framework */; };
+		9710B7E84747B70CBB35ED9E /* Pods_Debt_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C8673452D0B1FCD82731F2 /* Pods_Debt_Connect.framework */; };
+		AD15C60F21D72D0400C10E60 /* SheetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15C60E21D72D0400C10E60 /* SheetsAPI.swift */; };
+		AD29903921CB131C00F0BCEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD29903821CB131C00F0BCEA /* LaunchScreen.storyboard */; };
+		AD29903B21CB142700F0BCEA /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD29903A21CB142700F0BCEA /* LaunchViewController.swift */; };
+		AD53361E21C9C873007C7B3E /* client_590767009386-p3i8usnkimtraoahv5ck2j1qs035a0on.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD53361D21C9C873007C7B3E /* client_590767009386-p3i8usnkimtraoahv5ck2j1qs035a0on.apps.googleusercontent.com.plist */; };
+		AD753276212777BE0066FDA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD753275212777BE0066FDA5 /* AppDelegate.swift */; };
+		AD753278212777BE0066FDA5 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD753277212777BE0066FDA5 /* HomePageViewController.swift */; };
+		AD75327A212777BE0066FDA5 /* AddPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD753279212777BE0066FDA5 /* AddPurchaseViewController.swift */; };
+		AD75327D212777BE0066FDA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD75327B212777BE0066FDA5 /* Main.storyboard */; };
+		AD75327F212777BF0066FDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD75327E212777BF0066FDA5 /* Assets.xcassets */; };
+		AD7532982127798B0066FDA5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7532972127798B0066FDA5 /* SettingsViewController.swift */; };
+		ADA4C31B21E2A4ED00A98846 /* ConnectedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA4C31A21E2A4ED00A98846 /* ConnectedUser.swift */; };
+		ADA4C31D21E2C6A800A98846 /* ConnectedUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA4C31C21E2C6A800A98846 /* ConnectedUsersTableViewController.swift */; };
+		ADA4C31F21E2E89C00A98846 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA4C31E21E2E89C00A98846 /* TableViewCell.swift */; };
+		ADD94EE421E1448F00A9A18B /* Debt_ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD75328C212777BF0066FDA5 /* Debt_ConnectTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD753289212777BF0066FDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD75326A212777BE0066FDA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD753271212777BE0066FDA5;
+			remoteInfo = "Debt Connect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25A6E2874C8A58209F63C550 /* Pods-Debt ConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debt ConnectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Debt ConnectTests/Pods-Debt ConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6748925666DA567D87C3F229 /* Pods-Debt ConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debt ConnectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Debt ConnectTests/Pods-Debt ConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		9349354E9B708DF026AB6D3B /* Pods-Debt Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debt Connect.release.xcconfig"; path = "Pods/Target Support Files/Pods-Debt Connect/Pods-Debt Connect.release.xcconfig"; sourceTree = "<group>"; };
+		A780B760B6B21197335C8E69 /* Pods_Debt_ConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Debt_ConnectTests.framework; path = "../Debug-iphonesimulator/Pods_Debt_ConnectTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD15C60E21D72D0400C10E60 /* SheetsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsAPI.swift; sourceTree = "<group>"; };
+		AD29903821CB131C00F0BCEA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD29903A21CB142700F0BCEA /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		AD53361D21C9C873007C7B3E /* client_590767009386-p3i8usnkimtraoahv5ck2j1qs035a0on.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_590767009386-p3i8usnkimtraoahv5ck2j1qs035a0on.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		AD753272212777BE0066FDA5 /* Debt Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debt Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD753275212777BE0066FDA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD753277212777BE0066FDA5 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		AD753279212777BE0066FDA5 /* AddPurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPurchaseViewController.swift; sourceTree = "<group>"; };
+		AD75327C212777BE0066FDA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD75327E212777BF0066FDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD753283212777BF0066FDA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD753288212777BF0066FDA5 /* Debt ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Debt ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD75328C212777BF0066FDA5 /* Debt_ConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debt_ConnectTests.swift; sourceTree = "<group>"; };
+		AD75328E212777BF0066FDA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7532972127798B0066FDA5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ADA4C31A21E2A4ED00A98846 /* ConnectedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedUser.swift; sourceTree = "<group>"; };
+		ADA4C31C21E2C6A800A98846 /* ConnectedUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedUsersTableViewController.swift; sourceTree = "<group>"; };
+		ADA4C31E21E2E89C00A98846 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		ADD8E79D21D962D600B968AD /* Debt Connect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Debt Connect-Bridging-Header.h"; sourceTree = "<group>"; };
+		C6C8673452D0B1FCD82731F2 /* Pods_Debt_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Debt_Connect.framework; path = "../Debug-iphonesimulator/Pods_Debt_Connect.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1F5216091A0F0BC427D2DA /* Pods-Debt Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debt Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Debt Connect/Pods-Debt Connect.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD75326F212777BE0066FDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9710B7E84747B70CBB35ED9E /* Pods_Debt_Connect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD753285212777BF0066FDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150B8FF541247240860C490B /* Pods_Debt_ConnectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FB55A89952A2ED78DDC1E8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F5216091A0F0BC427D2DA /* Pods-Debt Connect.debug.xcconfig */,
+				9349354E9B708DF026AB6D3B /* Pods-Debt Connect.release.xcconfig */,
+				25A6E2874C8A58209F63C550 /* Pods-Debt ConnectTests.debug.xcconfig */,
+				6748925666DA567D87C3F229 /* Pods-Debt ConnectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84DEC8EBF7B27778CCB25180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6C8673452D0B1FCD82731F2 /* Pods_Debt_Connect.framework */,
+				A780B760B6B21197335C8E69 /* Pods_Debt_ConnectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD753269212777BE0066FDA5 = {
+			isa = PBXGroup;
+			children = (
+				AD753274212777BE0066FDA5 /* Debt Connect */,
+				AD75328B212777BF0066FDA5 /* Debt ConnectTests */,
+				AD753273212777BE0066FDA5 /* Products */,
+				1FB55A89952A2ED78DDC1E8E /* Pods */,
+				84DEC8EBF7B27778CCB25180 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD753273212777BE0066FDA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD753272212777BE0066FDA5 /* Debt Connect.app */,
+				AD753288212777BF0066FDA5 /* Debt ConnectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD753274212777BE0066FDA5 /* Debt Connect */ = {
+			isa = PBXGroup;
+			children = (
+				AD753275212777BE0066FDA5 /* AppDelegate.swift */,
+				AD29903A21CB142700F0BCEA /* LaunchViewController.swift */,
+				AD753277212777BE0066FDA5 /* HomePageViewController.swift */,
+				AD753279212777BE0066FDA5 /* AddPurchaseViewController.swift */,
+				AD7532972127798B0066FDA5 /* SettingsViewController.swift */,
+				ADA4C31C21E2C6A800A98846 /* ConnectedUsersTableViewController.swift */,
+				ADA4C31E21E2E89C00A98846 /* TableViewCell.swift */,
+				AD15C60E21D72D0400C10E60 /* SheetsAPI.swift */,
+				ADA4C31A21E2A4ED00A98846 /* ConnectedUser.swift */,
+				AD75327B212777BE0066FDA5 /* Main.storyboard */,
+				AD75327E212777BF0066FDA5 /* Assets.xcassets */,
+				AD29903821CB131C00F0BCEA /* LaunchScreen.storyboard */,
+				AD753283212777BF0066FDA5 /* Info.plist */,
+				AD53361D21C9C873007C7B3E /* client_590767009386-p3i8usnkimtraoahv5ck2j1qs035a0on.apps.googleusercontent.com.plist */,
+				ADD8E79D21D962D600B968AD /* Debt Connect-Bridging-Header.h */,
+			);
+			path = "Debt Connect";
+			sourceTree = "<group>";
+		};
+		AD75328B212777BF0066FDA5 /* Debt ConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD75328C212777BF0066FDA5 /* Debt_ConnectTests.swift */,
+				AD75328E212777BF0066FDA5 /* Info.plist */,
+			);
+			path = "Debt ConnectTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD753271212777BE0066FDA5 /* Debt Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD753291212777BF0066FDA5 /* Build configuration list for PBXNativeTarget "Debt Connect" */;
+			buildPhases = (
+				7AC571293A027303138DFEBF /* [CP] Check Pods Manifest.lock */,
+				AD75326E212777BE0066FDA5 /* Sources */,
+				AD75326F212777BE0066FDA5 /* Frameworks */,
+				AD753270212777BE0066FDA5 /* Resources */,
+				54BB8E190B83985EB8BA9E55 /* [CP] Embed Pods Frameworks */,
+				35A062BAD2664530E61073D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Debt Connect";
+			productName = "Debt Connect";
+			productReference = AD753272212777BE0066FDA5 /* Debt Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD753287212777BF0066FDA5 /* Debt ConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD753294212777BF0066FDA5 /* Build configuration list for PBXNativeTarget "Debt ConnectTests" */;
+			buildPhases = (
+				9CCF6E6AE5B5CD2BE6E43442 /* [CP] Check Pods Manifest.lock */,
+				AD753284212777BF0066FDA5 /* Sources */,
+				AD753285212777BF0066FDA5 /* Frameworks */,
+				AD753286212777BF0066FDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD75328A212777BF0066FDA5 /* PBXTargetDependency */,
+			);
+			name = "Debt ConnectTests";
+			productName = "Debt ConnectTests";
+			productReference = AD753288212777BF0066FDA5 /* Debt ConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD75326A212777BE0066FDA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Brandon Starcheus";
+				TargetAttributes = {
+					AD753271212777BE0066FDA5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+					AD753287212777BF0066FDA5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = AD753271212777BE0066FDA5;
+					};
+				};
+			};
+			buildConfigurationList = AD75326D212777BE0066FDA5 /* Build configuration list for PBXProject "Debt Connect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD753269212777BE0066FDA5;
+			productRefGroup = AD753273212777BE0066FDA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD753271212777BE0066FDA5 /* Debt Connect */,
+				AD753287212777BF0066FDA5 /* Debt ConnectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD753270212777BE0066FDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53361E21C9C873007C7B3E /* client_590767009386-p3i8usnkimtraoahv5ck2j1qs035a0on.apps.googleusercontent.com.plist in Resources */,
+				AD75327F212777BF0066FDA5 /* Assets.xcassets in Resources */,
+				AD29903921CB131C00F0BCEA /* LaunchScreen.storyboard in Resources */,
+				AD75327D212777BE0066FDA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD753286212777BF0066FDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35A062BAD2664530E61073D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Debt Connect/Pods-Debt Connect-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debt Connect/Pods-Debt Connect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54BB8E190B83985EB8BA9E55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Debt Connect/Pods-Debt Connect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debt Connect/Pods-Debt Connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC571293A027303138DFEBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Debt Connect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CCF6E6AE5B5CD2BE6E43442 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Debt ConnectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD75326E212777BE0066FDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD15C60F21D72D0400C10E60 /* SheetsAPI.swift in Sources */,
+				AD75327A212777BE0066FDA5 /* AddPurchaseViewController.swift in Sources */,
+				AD29903B21CB142700F0BCEA /* LaunchViewController.swift in Sources */,
+				ADA4C31F21E2E89C00A98846 /* TableViewCell.swift in Sources */,
+				AD753276212777BE0066FDA5 /* AppDelegate.swift in Sources */,
+				AD753278212777BE0066FDA5 /* HomePageViewController.swift in Sources */,
+				AD7532982127798B0066FDA5 /* SettingsViewController.swift in Sources */,
+				ADA4C31D21E2C6A800A98846 /* ConnectedUsersTableViewController.swift in Sources */,
+				ADA4C31B21E2A4ED00A98846 /* ConnectedUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD753284212777BF0066FDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD94EE421E1448F00A9A18B /* Debt_ConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD75328A212777BF0066FDA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD753271212777BE0066FDA5 /* Debt Connect */;
+			targetProxy = AD753289212777BF0066FDA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD75327B212777BE0066FDA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD75327C212777BE0066FDA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD75328F212777BF0066FDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD753290212777BF0066FDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD753292212777BF0066FDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1F5216091A0F0BC427D2DA /* Pods-Debt Connect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2DXL4F69S;
+				INFOPLIST_FILE = "Debt Connect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonStarcheus.Debt-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Debt Connect/Debt Connect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD753293212777BF0066FDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9349354E9B708DF026AB6D3B /* Pods-Debt Connect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2DXL4F69S;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
+				INFOPLIST_FILE = "Debt Connect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonStarcheus.Debt-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Debt Connect/Debt Connect-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD753295212777BF0066FDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A6E2874C8A58209F63C550 /* Pods-Debt ConnectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Debt ConnectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonStarcheus.Debt-ConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Debt Connect.app/Debt Connect";
+			};
+			name = Debug;
+		};
+		AD753296212777BF0066FDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6748925666DA567D87C3F229 /* Pods-Debt ConnectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Debt ConnectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrandonStarcheus.Debt-ConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Debt Connect.app/Debt Connect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD75326D212777BE0066FDA5 /* Build configuration list for PBXProject "Debt Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD75328F212777BF0066FDA5 /* Debug */,
+				AD753290212777BF0066FDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD753291212777BF0066FDA5 /* Build configuration list for PBXNativeTarget "Debt Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD753292212777BF0066FDA5 /* Debug */,
+				AD753293212777BF0066FDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD753294212777BF0066FDA5 /* Build configuration list for PBXNativeTarget "Debt ConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD753295212777BF0066FDA5 /* Debug */,
+				AD753296212777BF0066FDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD75326A212777BE0066FDA5 /* Project object */;
+}
