@@ -62,7 +62,6 @@ class SettingsViewController: UIViewController, GIDSignInUIDelegate, ConnectedUs
 			
 			if sheetsAPI?.connectedUser.name == "" && sheetsAPI?.connectedUser.sheetInDrive == "" {
 				sheetsAPI?.choosePath()
-				print("tried to choose")
 			}
 		}
 		

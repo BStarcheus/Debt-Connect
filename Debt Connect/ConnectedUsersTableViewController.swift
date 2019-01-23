@@ -45,7 +45,6 @@ class ConnectedUsersTableViewController: UITableViewController, ConnectedUserAPI
 		} else {
 			if sheetsAPI?.connectedUser.name == "" && sheetsAPI?.connectedUser.sheetInDrive == "" {
 				sheetsAPI?.choosePath()
-				print("tried to choose")
 			}
 		}
 		

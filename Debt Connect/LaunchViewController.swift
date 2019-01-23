@@ -48,7 +48,6 @@ class LaunchViewController: UIViewController, GIDSignInUIDelegate, ConnectedUser
 		}
 		
 		print(GIDSignIn.sharedInstance().currentUser)
-		print("Will appear")
 		
 	}
 	

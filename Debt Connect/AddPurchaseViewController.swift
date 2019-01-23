@@ -78,7 +78,6 @@ class AddPurchaseViewController: UIViewController, UITextFieldDelegate, Connecte
 				
 				if sheetsAPI?.connectedUser.name == "" && sheetsAPI?.connectedUser.sheetInDrive == "" {
 					sheetsAPI?.choosePath()
-					print("tried to choose")
 				}
 			}
 		}

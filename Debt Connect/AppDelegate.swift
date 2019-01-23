@@ -33,7 +33,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		
 		GIDSignIn.sharedInstance().signInSilently()
 		
-		print("sup dude")
 		print(GIDSignIn.sharedInstance().currentUser)
 		return true
 	}
@@ -81,7 +80,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 					
 					if currentView?.getAPI()?.connectedUser.name == "" {
 						currentView?.getAPI()?.choosePath()
-						print("tried to choose from app delegate")
 					}
 				}
 				

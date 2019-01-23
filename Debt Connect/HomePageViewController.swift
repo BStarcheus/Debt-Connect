@@ -53,7 +53,6 @@ class HomePageViewController: UIViewController, ConnectedUserAPI {
 	override func viewDidAppear(_ animated: Bool) {
 		super.viewDidAppear(animated)
 		
-		print("Hello there")
 		print(GIDSignIn.sharedInstance().currentUser)
 		
 		//If there is no stored user, display the launch log in screen
@@ -66,7 +65,6 @@ class HomePageViewController: UIViewController, ConnectedUserAPI {
 				
 				if sheetsAPI?.connectedUser.name == "" && sheetsAPI?.connectedUser.sheetInDrive == "" {
 					sheetsAPI?.choosePath()
-					print("tried to choose")
 				}
 			}
 		}

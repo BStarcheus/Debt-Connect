@@ -185,7 +185,6 @@ class SheetsAPI {
 			}
 			self.updateList(self.connectedUser)
 		})
-		print("heyo")
 	}
 	
 	
